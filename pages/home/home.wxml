@@ -1,0 +1,3 @@
+<!--pages/home.wxml-->
+
+<van-button round type="info">圆形</van-button>
