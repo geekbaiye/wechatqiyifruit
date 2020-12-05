@@ -1,4 +1,4 @@
-/* pages/home.wxss */
+/* pages/user.wxss */
 .imagesize{
   display:flex;                   
  justify-content: center;
@@ -6,4 +6,5 @@
 .imagesize .background { 
   width:375vw;
   height:175vh;
+  opacity:0.3
  }

@@ -62,6 +62,12 @@
         {
           "name": "首页",
           "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "用户",
+          "pathName": "pages/user/user",
           "scene": null
         }
       ]

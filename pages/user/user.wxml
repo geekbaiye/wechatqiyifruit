@@ -1,0 +1,4 @@
+<!--pages/user.wxml-->
+<view class="imagesize">
+<image src="../../image/background.jpg"  class="background" mode="widthFix"></image>
+</view>

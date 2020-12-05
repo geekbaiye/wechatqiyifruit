@@ -1,3 +1,8 @@
 <!--pages/home.wxml-->
-
-<van-button round type="info">圆形</van-button>
+<view class="imagesize">
+<image src="../../image/background.jpg"  class="background" mode="widthFix"></image>
+</view>
+<view>
+  <van-cell title="附近售货柜" icon="location-o" is-link to=""/>
+</view>
+<!--<van-button round type="info">圆形</van-button>-->
