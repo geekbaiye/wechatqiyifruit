@@ -4,7 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -38,7 +38,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.1",
-  "appid": "wx942cb1b23e8e88a1",
+  "appid": "wxbb7656253056cfca",
   "projectname": "wechatqiyifruit",
   "debugOptions": {
     "hidedInDevtools": []
@@ -68,6 +68,13 @@
         {
           "name": "用户",
           "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "登录",
+          "pathName": "pages/login/login",
+          "query": "",
           "scene": null
         }
       ]

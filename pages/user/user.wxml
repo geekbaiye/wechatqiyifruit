@@ -1,4 +1,19 @@
 <!--pages/user.wxml-->
-<view class="imagesize">
-<image src="../../image/background.jpg"  class="background" mode="widthFix"></image>
+<view>
+  <view class="imagesize">
+    <image src="../../image/background.jpg"  class="background" mode="widthFix"></image>
+  </view>
+  <view class="user_info">
+    <image class="user_icon" src="{{userinfo.avatarUrl}}"/>
+    <view class="user_name">{{userinfo.nickName}}</view>
+  </view>
 </view>
+<van-cell title="我的订单" icon="balance-list"></van-cell>
+<van-cell title="历史记录" icon="bars"></van-cell>
+
+<van-tabbar v-model="active" active-color="#ee0a24">
+  <van-tabbar-item name="home" icon="wap-home-o">首页</van-tabbar-item>
+  <van-tabbar-item name="shopping" icon="shopping-cart-o">商城</van-tabbar-item>
+  <van-tabbar-item icon="balance-list-o">购物车</van-tabbar-item>
+  <van-tabbar-item icon="user-o">我的</van-tabbar-item>
+</van-tabbar>

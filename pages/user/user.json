@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "van-cell":"../../miniprogram_npm/@vant/weapp/dist/cell",
+    "van-tabbar":"../../miniprogram_npm/@vant/weapp/dist/tabbar",
+    "van-tabbar-item":"../../miniprogram_npm/@vant/weapp/dist/tabbar-item"
+  }
 }

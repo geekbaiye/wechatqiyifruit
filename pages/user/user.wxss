@@ -6,5 +6,21 @@
 .imagesize .background { 
   width:375vw;
   height:175vh;
-  opacity:0.3
+  opacity:0.3;
+  position: relative;
  }
+ .user_info{
+   position: absolute;
+   left: 50%;
+   top: 30%;
+   transform: translate(-50%);
+   text-align: center; 
+ }
+ .user_icon{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.user_name{
+  color: aliceblue;
+}

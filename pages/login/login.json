@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-button":"../../miniprogram_npm/@vant/weapp/dist/button",
+    "van-icon":"../../miniprogram_npm/@vant/weapp/dist/icon"
+  }
+}
