@@ -1,2 +1,0 @@
-<!--pages/login/login.wxml-->
-<van-button round type="info" icon="user-o" bindgetuserinfo="myLogin" open-type="getUserInfo" >登录</van-button>

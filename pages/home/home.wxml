@@ -5,4 +5,5 @@
 <view>
   <van-cell title="附近售货柜" icon="location-o" is-link to=""/>
 </view>
+<van-button round type="info" icon="user-o" bindgetuserinfo="myLogin" open-type="getUserInfo" >登录</van-button>
 <!--<van-button round type="info">圆形</van-button>-->
